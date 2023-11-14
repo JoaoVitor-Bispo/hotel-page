@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/styles.css">
+    <title></title>
+</head>
+<body>
+    <header class="flex justify-between py-[15px] px-[90px] items-center">
+        <div>
+            <img src="../images/logo.png" alt="" class="w-[80px]">
+        </div>
+
+        <nav>
+            <a href="#">Como reservar</a>
+            <a href="#">Saiba mais</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-[url('../images/background.jpg')] no-repeat bg-cover text-center py-[140px]">
+            <div class="text-white">
+                <h1 class="text-3xl">Onde você quer ir?</h1>
+                <p class="pt-4 pb-9">Escolha seu estado e cidade para achar os melhores resorts.</p>
+            </div>
+
+            <div class="space-x-4">
+                <select name="state" id="state" class="p-2 rounded-[4px]">
+                    <option value="option 1">Escolha o Estado</option>
+                </select>
+
+                <select name="city" id="city" class="p-2 rounded-[4px]">
+                    <option value="option 1">Escolha a Cidade</option>
+                </select>
+                <button class="bg-orange-400 p-2 rounded-[4px]">Pesquisar resorts</button>
+            </div>
+        </section>
+
+        <section class="flex justify-around">
+            <div class="w-[40%] my-[60px]">
+                <small class="tracking-[0.25em] font-bold">RESORT EM DESTAQUE</small>
+                <h1 class="text-2xl mb-2">Ecoresort praia do Fort Bahia</h1>
+                <small>Hotel qualidade cinco estrelas</small>
+                <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat explicabo, delectus eum tempore nisi assumenda sed labore. Quis perspiciatis veritatis commodi consequuntur ut in aut ea et voluptatum deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br>Voluptatemiusto voluptatum ea sit laudantium error qui, inventore cupiditate asperiores animi.
+                </p>
+                <button class="bg-orange-400 p-2 rounded-[4px]">Selecionar Resorts</button>
+            </div>
+
+            <div class="my-[90px]"><img src="../images/midsection.avif" alt="" class="w-[400px]"></div>
+        </section>
+
+        <section class="text-center">
+            <h1 class="text-xl">Conheça mais Resortes</h1>
+
+            <div class="grid w-[70%] mx-auto grid-cols-4 grid-rows-4 gap-4 p-5">
+                <div class="bg-green-500 col-start-1 col-end-3 row-start-1 row-end-5">1</div>
+                <div class="bg-blue-500 col-start-3 col-end-5 row-start-1 row-end-3">2</div>
+                <div class="bg-purple-500 row-start-3 row-end-5">3</div>
+                <div class="bg-rose-500 row-start-3 row-end-5">4</div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
